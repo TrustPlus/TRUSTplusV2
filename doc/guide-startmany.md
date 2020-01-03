@@ -4,7 +4,7 @@
 There are many ways to setup a wallet to support start-many. This guide will walk through two of them.
 
 1. [Importing an existing wallet (recommended if you are consolidating wallets).](#option1)
-2. [Sending 100,00 XTP to new wallet addresses.](#option2)
+2. [Sending 100,00 TRUST to new wallet addresses.](#option2)
 
 ## <a name="option1"></a>Option 1. Importing an existing wallet
 
@@ -56,9 +56,9 @@ Create a new wallet address for each Masternode.
 
 Close your QT Wallet.
 
-### Send 100,000 XTP to New Addresses
+### Send 100,000 TRUST to New Addresses
 
-Just like setting up a standard MN. Send exactly 100,000 XTP to each new address created above.
+Just like setting up a standard MN. Send exactly 100,000 TRUST to each new address created above.
 
 ### Create New Masternode Private Keys
 
@@ -78,11 +78,11 @@ Remember... this is local. Make sure your QT is not running.
 
 Create the `masternode.conf` file in the same directory as your `wallet.dat`.
 
-Copy the masternode private key and correspondig collateral output transaction that holds the 1000 XTP.
+Copy the masternode private key and correspondig collateral output transaction that holds the 100,000 TRUST.
 
 The masternode private key may be an existing key from [Option 1](#option1), or a newly generated key from [Option 2](#option2). 
 
-*Note: The masternode priviate key is **not** the same as a wallet private key. **Never** put your wallet private key in the masternode.conf file. That is almost equivalent to putting your 1000 XTP on the remote server and defeats the purpose of a hot/cold setup.*
+*Note: The masternode priviate key is **not** the same as a wallet private key. **Never** put your wallet private key in the masternode.conf file. That is almost equivalent to putting your 100,000 TRUST on the remote server and defeats the purpose of a hot/cold setup.*
 
 ### Get the collateral output
 
@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```trustplus-cli getinfo```
 
-and comparing with the official explorer at https://explorer.trustpluscoin.info/chain/TRUSTplus
+and comparing with the official explorer at https://chainz.cryptoid.info/xtp/
 
 ### Local
 
@@ -166,7 +166,7 @@ trustplus-cli masternode status
 {
     "vin" : "CTxIn(COutPoint(<collateral_output>, <collateral_output_index>), scriptSig=)",
     "service" : "<ipaddress>:37002",
-    "pubkey" : "<100000 XTP address>",
+    "pubkey" : "<100000 TRUST address>",
     "status" : "Masternode successfully started"
 }
 ```

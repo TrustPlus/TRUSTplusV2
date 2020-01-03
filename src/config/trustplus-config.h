@@ -1,9 +1,9 @@
 /* src/config/trustplus-config.h.  Generated from trustplus-config.h.in by configure.  */
 /* src/config/trustplus-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef XTP_CONFIG_H
+#ifndef TRUST_CONFIG_H
 
-#define XTP_CONFIG_H
+#define TRUST_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -431,4 +431,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //XTP_CONFIG_H
+#endif //TRUST_CONFIG_H

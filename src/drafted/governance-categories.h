@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CTRUSTplusNetwork: XTP NETWORK (ROOT)
+	CTRUSTplusNetwork: TRUST NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CTRUSTplusProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// XTP NETWORK (ROOT)
+	// TRUST NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=XTPDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=TRUSTDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

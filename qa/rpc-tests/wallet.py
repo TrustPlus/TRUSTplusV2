@@ -15,10 +15,10 @@ class WalletTest (BitcoinTestFramework):
         fee = balance_with_fee - curr_balance
         target_fee = fee_per_byte * tx_size
         if fee < target_fee:
-            raise AssertionError("Fee of %s XTP too low! (Should be %s XTP)"%(str(fee), str(target_fee)))
+            raise AssertionError("Fee of %s TRUST too low! (Should be %s TRUST)"%(str(fee), str(target_fee)))
         # allow the node's estimation to be at most 2 bytes off
         if fee > fee_per_byte * (tx_size + 2):
-            raise AssertionError("Fee of %s XTP too high! (Should be %s XTP)"%(str(fee), str(target_fee)))
+            raise AssertionError("Fee of %s TRUST too high! (Should be %s TRUST)"%(str(fee), str(target_fee)))
         return curr_balance
 
     def setup_chain(self):

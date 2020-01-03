@@ -21,9 +21,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(XTP);
-    unitlist.append(mXTP);
-    unitlist.append(uXTP);
+    unitlist.append(TRUST);
+    unitlist.append(mTRUST);
+    unitlist.append(uTRUST);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -32,9 +32,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case XTP:
-    case mXTP:
-    case uXTP:
+    case TRUST:
+    case mTRUST:
+    case uTRUST:
     case duffs:
         return true;
     default:
