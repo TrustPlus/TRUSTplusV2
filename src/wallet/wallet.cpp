@@ -2496,10 +2496,10 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
     std::random_shuffle(vCoins.rbegin(), vCoins.rend(), GetRandInt);
 
     // ( bit on if present )
-    // bit 0 - 100XTP+1
-    // bit 1 - 10XTP+1
-    // bit 2 - 1XTP+1
-    // bit 3 - .1XTP+1
+    // bit 0 - 100TRUST+1
+    // bit 1 - 10TRUST+1
+    // bit 2 - 1TRUST+1
+    // bit 3 - .1TRUST+1
 
     std::vector<int> vecBits;
     if (!darkSendPool.GetDenominationsBits(nDenom, vecBits)) {
@@ -3001,7 +3001,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
                 if (!SelectCoins(nValueToSelect, setCoins, nValueIn, coinControl, nCoinType, fUseInstantSend))
                 {
                     if (nCoinType == ONLY_NOT5000IFMN) {
-                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 5000 XTP.");
+                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 5000 TRUST.");
                     } else if (nCoinType == ONLY_NONDENOMINATED_NOT5000IFMN) {
                         strFailReason = _("Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 XTP.");
                     } else if (nCoinType == ONLY_DENOMINATED) {
