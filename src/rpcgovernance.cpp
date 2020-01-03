@@ -4,7 +4,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//#define ENABLE_XTP_DEBUG
+//#define ENABLE_TRUST_DEBUG
 
 #include "activemasternode.h"
 #include "darksend.h"

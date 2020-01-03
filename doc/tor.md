@@ -1,4 +1,4 @@
-TOR SUPPORT IN XTP CORE
+TOR SUPPORT IN TRUST CORE
 =======================
 
 It is possible to run TRUSTplus Core as a Tor hidden service, and connect to such services.

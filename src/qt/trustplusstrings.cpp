@@ -113,7 +113,7 @@ QT_TRANSLATE_NOOP("trustplus-core", ""
 "confirmation on average within n blocks (default: %u)"),
 QT_TRANSLATE_NOOP("trustplus-core", ""
 "InstantSend doesn't support sending values that high yet. Transactions are "
-"currently limited to %1 XTP."),
+"currently limited to %1 TRUST."),
 QT_TRANSLATE_NOOP("trustplus-core", ""
 "InstantSend requires inputs with at least %d confirmations, you might need "
 "to wait a few minutes and try again."),
@@ -217,10 +217,10 @@ QT_TRANSLATE_NOOP("trustplus-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("trustplus-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this "
-"transaction that are not equal 5000 XTP."),
+"transaction that are not equal 5000 TRUST."),
 QT_TRANSLATE_NOOP("trustplus-core", ""
 "Unable to locate enough funds for this transaction that are not equal 5000 "
-"XTP."),
+"TRUST."),
 QT_TRANSLATE_NOOP("trustplus-core", ""
 "Unsupported argument -socks found. Setting SOCKS version isn't possible "
 "anymore, only SOCKS5 proxies are supported."),
@@ -378,7 +378,7 @@ QT_TRANSLATE_NOOP("trustplus-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("trustplus-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("trustplus-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("trustplus-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("trustplus-core", "Keep N XTP anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("trustplus-core", "Keep N TRUST anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("trustplus-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("trustplus-core", "Keep the transaction memory pool below <n> megabytes (default: %u)"),
 QT_TRANSLATE_NOOP("trustplus-core", "Last PrivateSend was too recent."),

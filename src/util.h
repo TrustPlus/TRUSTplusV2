@@ -36,8 +36,8 @@
 
 // Uncomment the following line to enable debugging messages
 // or enable on a per file basis prior to inclusion of util.h
-//#define ENABLE_XTP_DEBUG
-#ifdef ENABLE_XTP_DEBUG
+//#define ENABLE_TRUST_DEBUG
+#ifdef ENABLE_TRUST_DEBUG
 #define DBG( x ) x
 #else
 #define DBG( x ) 
