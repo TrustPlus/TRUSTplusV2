@@ -59,9 +59,9 @@ public:
      */
     enum Unit
     {
-        XTP,
-        mXTP,
-        uXTP,
+        TRUST,
+        mTRUST,
+        uTRUST,
         duffs
     };
 
