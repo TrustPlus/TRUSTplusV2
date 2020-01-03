@@ -11,7 +11,7 @@ Official inital implementation of the TRUSTplus core.
 TRUSTplusV2 is a continuation of the TRUST project that was based upon a pure PoS Blockchain on the X11 algorithm.  This project stood the test of time, launching 7/4/14. Today we start TRUSTplusV2 (Trust-Plus-Version-2) on 2019 New Years as a PoW Blockchain on X16S algorithm with Masternodes.
 
 ## Rewards
-TrustPlusXTP is strait forward: 10 TRUST per block, 50% is created for the winning masternode, halving in increments of 500,000 blocks. The first period extended to 700,000 blocks.
+TrustPlusV2 is strait forward: 10 TRUST per block, 50% is created for the winning masternode, halving in increments of 500,000 blocks. The first period extended to 700,000 blocks.
 
 There is a 35,000,000 TRUST block reward at block 1 to fund the TRUSTv1 to TRUSTv2 swap.
 The first 9600 blocks rewards are 0.1 with 1% of the reward going to Masternodes.
