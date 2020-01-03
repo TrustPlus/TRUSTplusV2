@@ -166,7 +166,7 @@ trustplus-cli masternode status
 {
     "vin" : "CTxIn(COutPoint(<collateral_output>, <collateral_output_index>), scriptSig=)",
     "service" : "<ipaddress>:37002",
-    "pubkey" : "<100000 XTP address>",
+    "pubkey" : "<100000 TRUST address>",
     "status" : "Masternode successfully started"
 }
 ```
