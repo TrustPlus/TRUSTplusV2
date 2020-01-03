@@ -48,9 +48,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case XTP: return QString("XTP");
-            case mXTP: return QString("mXTP");
-            case uXTP: return QString::fromUtf8("μXTP");
+            case TRUST: return QString("TRUST");
+            case mTRUST: return QString("mTRUST");
+            case uTRUST: return QString::fromUtf8("μTRUST");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -59,9 +59,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case XTP: return QString("tXTP");
-            case mXTP: return QString("mtXTP");
-            case uXTP: return QString::fromUtf8("μtXTP");
+            case TRUST: return QString("tTRUST");
+            case mTRUST: return QString("mtTRUST");
+            case uTRUST: return QString::fromUtf8("μtTRUST");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -98,9 +98,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case XTP:  return 100000000;
-    case mXTP: return 100000;
-    case uXTP: return 100;
+    case TRUST:  return 100000000;
+    case mTRUST: return 100000;
+    case uTRUST: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -110,9 +110,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case XTP: return 8;
-    case mXTP: return 5;
-    case uXTP: return 2;
+    case TRUST: return 8;
+    case mTRUST: return 5;
+    case uTRUST: return 2;
     case duffs: return 0;
     default: return 0;
     }
