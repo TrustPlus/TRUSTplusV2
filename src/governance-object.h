@@ -6,7 +6,7 @@
 #ifndef GOVERNANCE_OBJECT_H
 #define GOVERNANCE_OBJECT_H
 
-//#define ENABLE_XTP_DEBUG
+//#define ENABLE_TRUST_DEBUG
 
 #include "cachemultimap.h"
 #include "governance-exceptions.h"
