@@ -64,7 +64,7 @@ class TxnMallTest(BitcoinTestFramework):
 
         # manipulation 2. createrawtransaction randomizes the order of its outputs, so swap them if necessary.
         # output 0 is at version+#inputs+input+sigstub+sequence+#outputs
-        # 400 XTP serialized is 00902f5009000000
+        # 400 TRUST serialized is 00902f5009000000
         pos0 = 2*(4+1+36+1+4+1)
         hex400 = "00902f5009000000"
         output_len = 16 + 2 + 2 * int("0x" + clone_raw[pos0 + 16 : pos0 + 16 + 2], 0)
@@ -92,7 +92,7 @@ class TxnMallTest(BitcoinTestFramework):
         tx1 = self.nodes[0].gettransaction(txid1)
         tx2 = self.nodes[0].gettransaction(txid2)
 
-        # Node0's balance should be starting balance, plus 500XTP for another
+        # Node0's balance should be starting balance, plus 500TRUST for another
         # matured block, minus tx1 and tx2 amounts, and minus transaction fees:
         expected = starting_balance + fund_foo_tx["fee"] + fund_bar_tx["fee"]
         if self.options.mine_block: expected += 500
