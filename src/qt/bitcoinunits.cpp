@@ -74,9 +74,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case XTP: return QString("TRUSTplus");
-            case mXTP: return QString("Milli-TRUSTplus (1 / 1" THIN_SP_UTF8 "000)");
-            case uXTP: return QString("Micro-TRUSTplus (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRUST: return QString("TRUSTplus");
+            case mTRUST: return QString("Milli-TRUSTplus (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRUST: return QString("Micro-TRUSTplus (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TRUSTplus (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -85,9 +85,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case XTP: return QString("TestTRUSTpluss");
-            case mXTP: return QString("Milli-TestTRUSTplus (1 / 1" THIN_SP_UTF8 "000)");
-            case uXTP: return QString("Micro-TestTRUSTplus (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRUST: return QString("TestTRUSTpluss");
+            case mTRUST: return QString("Milli-TestTRUSTplus (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRUST: return QString("Micro-TestTRUSTplus (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestTRUSTplus (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
