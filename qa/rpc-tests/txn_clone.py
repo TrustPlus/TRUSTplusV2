@@ -135,8 +135,8 @@ class TxnMallTest(BitcoinTestFramework):
         assert_equal(tx1["confirmations"], -2)
         assert_equal(tx1_clone["confirmations"], 2)
         assert_equal(tx2["confirmations"], 1)
-
-        # Check node0's total balance; should be same as before the clone, + 1000 XTP for 2 matured,
+T
+        # Check node0's total balance; should be same as before the clone, + 100,000 TRUST for 2 matured,
         # less possible orphaned matured subsidy
         expected += 1000
         if (self.options.mine_block): 
