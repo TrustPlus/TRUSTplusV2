@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```trustplus-cli getinfo```
 
-and comparing with the official explorer at https://chainz.cryptoid.info/xtp/
+and comparing with the official explorer at https://chainz.cryptoid.info/trust/
 
 ### Local
 
