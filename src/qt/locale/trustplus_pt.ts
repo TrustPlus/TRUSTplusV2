@@ -176,8 +176,8 @@
         <translation>Confirme cifra da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XTP&lt;/b&gt;!</source>
-        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODAS AS SUAS MOEDAS XTP&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRUST&lt;/b&gt;!</source>
+        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODAS AS SUAS MOEDAS TRUST&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
