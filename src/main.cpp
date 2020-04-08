@@ -1752,7 +1752,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
     	nSubsidy = 0.1;
     }
     // Missed Block 500000 Halving
-    else if (nPrevHeight < 700000) { 
+    else if (nPrevHeight < 900000) { 
     	nSubsidy = 10;
     
     }
