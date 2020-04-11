@@ -16,7 +16,7 @@ TrustPlusV2 is strait forward: 10 TRUST per block, 50% is created for the winnin
 There is a 35,000,000 TRUST block reward at block 1 to fund the TRUSTv1 to TRUSTv2 swap.
 The first 9600 blocks rewards are 0.1 with 1% of the reward going to Masternodes.
 
-Source: https://github.com/TrustPlus/TRUSTplusV2/src/main.cpp#L1746
+Source: https://github.com/TrustPlus/TRUSTplusV2/tree/src/main.cpp#L1746
 
 ## Building the source
 
