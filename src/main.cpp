@@ -1745,69 +1745,67 @@ NOTE:   unlike bitcoin we are using PREVIOUS block height here,
 */
 CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly)
 {
-    if (nPrevHeight == 1) {
+     if (nPrevHeight == 1) {
         return 35000000 * COIN;
     }
     else if (nPrevHeight < 9600) {
-    	nSubsidy = 0.1;
+    	return 0.1 * COIN;
     }
     // Missed Block 500000 Halving
-    else if (nPrevHeight < 700000) { 
-    	nSubsidy = 10;
+    else if (nPrevHeight < 900000) { 
+    	return 10 * COIN;
     
     }
     else if (nPrevHeight < 1000000) {
-    	nSubsidy = 5;
+    	return 5 * COIN;
     
     }
     else if (nPrevHeight < 1500000) {
-    	nSubsidy = 2.5;
+    	return 2.5 * COIN;
     
     }
     else if (nPrevHeight < 2000000) {
-    	nSubsidy = 1.25;
+    	return 1.25 * COIN;
 	    
     } 
     else if (nPrevHeight < 2500000) {
-    	nSubsidy = 0.625;
+    	return 0.625 * COIN;
 	    
     }
     else if (nPrevHeight < 3000000) {
-    	nSubsidy = 0.3125;
+    	return 0.3125 * COIN;
 	    
     }
     else if (nPrevHeight < 3500000) {
-    	nSubsidy = 0.15625;
+    	return 0.15625 * COIN;
 	    
     }    
     else if (nPrevHeight < 4000000) {
-    	nSubsidy = 0.08;
+    	return 0.08 * COIN;
 	    
     }    
     else if (nPrevHeight < 4500000) {
-    	nSubsidy = 0.04;
+    	return 0.04 * COIN;
 	    
     }
     else if (nPrevHeight < 5000000) {
-    	nSubsidy = 0.02;
+    	return 0.02 * COIN;
 	    
     }	
     else if (nPrevHeight < 5500000) {
-    	nSubsidy = 0.01;
+    	return 0.01 * COIN;
 	    
     }
     else if (nPrevHeight < 6000000) {
-    	nSubsidy = 0.004;
+    	return 0.004 * COIN;
 	    
     }
     else if (nPrevHeight < 6500000) {
-    	nSubsidy = 0.002;
+    	return 0.002 * COIN;
 	    
     } else {
-	nSubsidy = 0.0001;
+	return 0.0001 * COIN;
     }
-
-    return nSubsidy * COIN;
 	
     CAmount nSubsidy = 0 * COIN;
 
