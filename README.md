@@ -27,7 +27,7 @@ Source: https://github.com/TrustPlus/TRUSTplusV2/src/main.cpp#L1746
 `sudo apt-get install git zip unzip -y`
 
 ```
-sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libboost-all-dev software-properties-common libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev software-properties-common -y
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libboost-all-dev software-properties-common libdb*-dev libdb*++-dev libminiupnpc-dev libzmq3-dev software-properties-common -y
 ```
 
 If you are making a headless server, please skip this next step.
