@@ -1,5 +1,5 @@
 PACKAGE=qt
-$(package)_version=5.9.9
+$(package)_version=5.5.0
 $(package)_download_path=https://trustplus.com/depends-sources/
 $(package)_suffix=opensource-src-$($(package)_version)-rc.tar.gz
 $(package)_file_name=qtbase-$($(package)_suffix)
