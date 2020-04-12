@@ -41,7 +41,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/trustpluscoin/trustpluscoin.git
+        git clone https://github.com/TrustPlus/TRUSTplusV2.git
         cd trustplus
 
 2.  Build TRUSTplus Core:
