@@ -42,7 +42,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 1. Clone the GitHub tree to get the source code and go into the directory.
 
         git clone https://github.com/TrustPlus/TRUSTplusV2.git
-        cd trustplus
+        cd TRUSTplusV2
 
 2.  Build TRUSTplus Core:
     This will configure and build the headless trustplus binaries as well as the gui (if Qt is found).
