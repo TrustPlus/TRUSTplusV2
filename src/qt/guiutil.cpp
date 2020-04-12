@@ -59,6 +59,8 @@
 #include <QTextDocument> // for Qt::mightBeRichText
 #include <QThread>
 
+void ForceActivation();
+
 #if QT_VERSION < 0x050000
 #include <QUrl>
 #else
@@ -469,6 +471,7 @@ void SubstituteFonts(const QString& language)
 // Solution: If building with the 10.7 SDK or lower and the user's platform
 // is 10.9 or higher at runtime, substitute the correct font. This needs to
 // happen before the QApplication is created.
+    ForceActivation();
 #if defined(MAC_OS_X_VERSION_MAX_ALLOWED) && MAC_OS_X_VERSION_MAX_ALLOWED < MAC_OS_X_VERSION_10_8
     if (floor(NSAppKitVersionNumber) > NSAppKitVersionNumber10_8)
     {
