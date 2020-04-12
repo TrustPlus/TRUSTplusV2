@@ -50,7 +50,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
         ./autogen.sh
         chmod u+x configure
-        ./configure
+        ./configure CFLAGS="-fno-stack-check"
         make
 
 3.  It is also a good idea to build and run the unit tests:
