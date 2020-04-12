@@ -49,6 +49,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
     You can disable the gui build by passing `--without-gui` to configure.
 
         ./autogen.sh
+        chmod u+x configure
         ./configure
         make
 
