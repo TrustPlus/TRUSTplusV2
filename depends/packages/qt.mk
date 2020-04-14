@@ -1,7 +1,7 @@
 PACKAGE=qt
 $(package)_version=5.5.0
 $(package)_download_path=https://trustplus.com/depends-sources/
-$(package)_suffix=opensource-src-$($(package)_version)-rc.tar.gz
+$(package)_suffix=opensource-src-$($(package)_version)-rc.tar.xz
 $(package)_file_name=qtbase-$($(package)_suffix)
 $(package)_sha256_hash=7e8e1cde04f761fd856524c6dd8cc4ca3cb473c2448d8b498268d2996eba81c1
 $(package)_dependencies=openssl
